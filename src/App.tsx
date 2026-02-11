@@ -1,14 +1,11 @@
-
-
-import './App.css'
+import AppLayout from './components/AppLayout'
 
 function App() {
-  
-
   return (
-   <>
-   <h1>Hello Hrushikesh</h1>
-   </>
+    <AppLayout>
+      <h1>Welcome to Your Storybook</h1>
+      <p>Discover amazing stories and create your own collection!</p>
+    </AppLayout>
   )
 }
 
